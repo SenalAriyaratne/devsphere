@@ -1,0 +1,99 @@
+.title-bar {
+    @apply flex justify-between items-center p-2 bg-white shadow-md;
+    position: relative;
+    z-index: 10;
+}
+
+.title-bar.connected {
+  @apply shadow-md; /* Remove shadow when connected */
+  position: static; /* Remove relative positioning */
+  z-index: auto; /* Remove z-index */
+}
+
+.logo-container {
+  @apply flex items-center;
+}
+
+.logo {
+  @apply w-10 h-10 ; /* Adjust size and margin as needed */
+}
+.app-name {
+  @apply ml-2 text-xl font-bold tracking-wide; /* Adjust size and margin as needed */
+  font-family: 'Roboto', sans-serif; /* Use a modern font */
+}
+
+.dev {
+  @apply text-black;
+  
+}
+
+.sphere {
+  @apply text-blue-500;
+  
+}
+
+.login-icon {
+    @apply text-blue-500 cursor-pointer;
+}
+
+/* Sign-in button styles */
+.sign-in-button {
+    @apply bg-white text-gray-400 font-semibold py-2 px-4  hover:text-black transition duration-300;
+    margin-right: 16px;
+    font-family: 'Roboto', sans-serif; /* Use a modern font */
+}
+
+/* Create Account button styles */
+.create-account-button {
+  @apply bg-white text-blue-500 font-semibold py-2 px-4 ;
+  margin-right: 8px; /* Adjust margin as needed */
+}
+
+.create-account-button:hover {
+  @apply bg-blue-500 text-white shadow-md rounded-full; /* Change text color on hover */
+}
+/* Fade effect on hover */
+.sign-in-button:hover .create-account-button {
+  @apply text-gray-400;
+}
+
+
+/* Profile picture styles */
+.profile-picture {
+  @apply w-10 h-10 rounded-full mr-4; /* Adjust size and margin as needed */
+}
+
+.tool-bar {
+  @apply flex flex-col items-center w-16 h-full overflow-hidden text-gray-400 bg-white transition-all duration-300 shadow-md;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.tool-bar:hover {
+  @apply w-40;
+}
+
+.tool-item {
+  @apply flex items-center justify-start w-full h-12 mt-2 rounded hover:bg-slate-200 p-4 cursor-pointer;
+}
+
+.tool-icon {
+  @apply text-blue-300 p-2;
+}
+
+
+.tooltip-text {
+  @apply ml-2 text-sm font-medium text-slate-300 hidden;
+}
+
+.tool-bar:hover .tooltip-text {
+  @apply block;
+}
+
+.tool-item:hover .tool-icon {
+  @apply text-blue-500;
+}
+
+.tool-item:hover .tooltip-text {
+  @apply text-blue-500;
+}

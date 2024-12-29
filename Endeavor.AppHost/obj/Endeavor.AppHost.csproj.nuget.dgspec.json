@@ -1,0 +1,86 @@
+{
+  "format": 1,
+  "restore": {
+    "F:\\Projects\\Project.Endeavor\\Endeavor.AppHost\\Endeavor.AppHost.csproj": {}
+  },
+  "projects": {
+    "F:\\Projects\\Project.Endeavor\\Endeavor.AppHost\\Endeavor.AppHost.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\Projects\\Project.Endeavor\\Endeavor.AppHost\\Endeavor.AppHost.csproj",
+        "projectName": "Endeavor.AppHost",
+        "projectPath": "F:\\Projects\\Project.Endeavor\\Endeavor.AppHost\\Endeavor.AppHost.csproj",
+        "packagesPath": "C:\\Users\\ariya\\.nuget\\packages\\",
+        "outputPath": "F:\\Projects\\Project.Endeavor\\Endeavor.AppHost\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ariya\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Aspire.Dashboard.Sdk.win-x64": {
+              "target": "Package",
+              "version": "[8.2.2, )",
+              "autoReferenced": true
+            },
+            "Aspire.Hosting.AppHost": {
+              "target": "Package",
+              "version": "[8.2.2, )"
+            },
+            "Aspire.Hosting.NodeJs": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Aspire.Hosting.Orchestration.win-x64": {
+              "target": "Package",
+              "version": "[8.2.2, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.404/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "7id3J/RMV54txHJzh2ZDx6OwWXt11egsoqkEgxItC5E=",
+  "Source": "Endeavor.ApiService",
+  "BasePath": "_content/Endeavor.ApiService",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

@@ -1,0 +1,12 @@
+F:\Projects\Project.Endeavor\Endeavor.ServiceDefaults\bin\Debug\net8.0\Endeavor.ServiceDefaults.deps.json
+F:\Projects\Project.Endeavor\Endeavor.ServiceDefaults\bin\Debug\net8.0\Endeavor.ServiceDefaults.dll
+F:\Projects\Project.Endeavor\Endeavor.ServiceDefaults\bin\Debug\net8.0\Endeavor.ServiceDefaults.pdb
+F:\Projects\Project.Endeavor\Endeavor.ServiceDefaults\obj\Debug\net8.0\Endeavor.ServiceDefaults.csproj.AssemblyReference.cache
+F:\Projects\Project.Endeavor\Endeavor.ServiceDefaults\obj\Debug\net8.0\Endeavor.ServiceDefaults.GeneratedMSBuildEditorConfig.editorconfig
+F:\Projects\Project.Endeavor\Endeavor.ServiceDefaults\obj\Debug\net8.0\Endeavor.ServiceDefaults.AssemblyInfoInputs.cache
+F:\Projects\Project.Endeavor\Endeavor.ServiceDefaults\obj\Debug\net8.0\Endeavor.ServiceDefaults.AssemblyInfo.cs
+F:\Projects\Project.Endeavor\Endeavor.ServiceDefaults\obj\Debug\net8.0\Endeavor.ServiceDefaults.csproj.CoreCompileInputs.cache
+F:\Projects\Project.Endeavor\Endeavor.ServiceDefaults\obj\Debug\net8.0\Endeavor.ServiceDefaults.dll
+F:\Projects\Project.Endeavor\Endeavor.ServiceDefaults\obj\Debug\net8.0\refint\Endeavor.ServiceDefaults.dll
+F:\Projects\Project.Endeavor\Endeavor.ServiceDefaults\obj\Debug\net8.0\Endeavor.ServiceDefaults.pdb
+F:\Projects\Project.Endeavor\Endeavor.ServiceDefaults\obj\Debug\net8.0\ref\Endeavor.ServiceDefaults.dll
