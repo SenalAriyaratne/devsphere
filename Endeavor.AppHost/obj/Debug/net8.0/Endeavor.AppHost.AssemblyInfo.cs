@@ -23,7 +23,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Endeavor.AppHost")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+66b44b87edf1c0159fb7a1afaa2f151f42b6fcba")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+540e66a79ff54cf7ac8bdf05c54510deabcc8abc")]
 [assembly: System.Reflection.AssemblyProductAttribute("Endeavor.AppHost")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Endeavor.AppHost")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
