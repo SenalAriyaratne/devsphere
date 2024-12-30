@@ -64,7 +64,7 @@
 }
 
 .tool-bar {
-  @apply flex flex-col items-center w-16 h-full overflow-hidden text-gray-400 bg-white transition-all duration-300 shadow-md;
+  @apply h-auto md:h-full flex flex-col items-center w-16  overflow-hidden text-gray-400 bg-white transition-all duration-300 shadow-md;
   border-top-left-radius: 0;
   border-top-right-radius: 0;
 }
