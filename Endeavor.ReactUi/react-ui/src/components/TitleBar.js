@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import '../App.css';
 import profilePicture from '../assets/images/profile.jpg'; // Adjust the path to your image
 import logo from '../assets/images/logoDS.PNG';
-const TitleBar = ({isSignedIn, onSignIn}) => {
+const TitleBar = ({ isSignedIn, onSignIn }) => {
     // const [isSignedIn, setIsSignedIn] = useState(false); // State to track if the user is signed in
 
     return (

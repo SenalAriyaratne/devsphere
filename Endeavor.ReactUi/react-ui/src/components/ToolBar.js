@@ -1,24 +1,6 @@
 import React ,{useState} from 'react';
+import {Link} from 'react-router-dom';
 import '../App.css';
-
-// const Toolbar = () => {
-
-//   const [selectedTool, setSelectedTool] = useState('');
-
-//   const handleToolClick = (tool) => {
-//     setSelectedTool(tool);
-//   };
-
-//    return (
-//     <div className="tool-bar">
-//       <span className="material-icons tool-icon">dashboard</span>
-//       <span className="material-icons tool-icon">apps</span>
-//       <span className="material-icons tool-icon">search</span>
-//       <span className="material-icons tool-icon">settings</span>
-//       <span className="material-icons tool-icon">help</span>
-//     </div>
-//   );
-// };
 
 const Toolbar = () => {
   const [selectedTool, setSelectedTool] = useState('');
@@ -30,10 +12,10 @@ const Toolbar = () => {
   return (
     <div className="tool-bar hover:expanded">
       <div className="flex flex-col items-center mt-2 ">
-        <div className="tool-item">
+        <Link to="/dashboard" className="tool-item">
           <span className="material-icons tool-icon">dashboard</span>
           <span className="tooltip-text">Dashboard</span>
-        </div>
+        </Link>
         <div className="tool-item">
           <span className="material-icons tool-icon">apps</span>
           <span className="tooltip-text">Projects</span>
