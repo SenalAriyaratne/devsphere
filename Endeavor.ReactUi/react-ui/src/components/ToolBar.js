@@ -10,7 +10,7 @@ const Toolbar = () => {
   };
 
   return (
-    <div className="tool-bar hover:expanded">
+    <div className="tool-bar ">
       <div className="flex flex-col items-center mt-2 ">
         <Link to="/dashboard" className="tool-item">
           <span className="material-icons tool-icon">dashboard</span>
@@ -25,8 +25,12 @@ const Toolbar = () => {
           <span className="tooltip-text">Search</span>
         </div>
         <div className="tool-item">
+          <span className="material-icons tool-icon">chat</span>
+          <span className="tooltip-text">Search</span>
+        </div>
+        <div className="tool-item">
           <span className="material-icons tool-icon">settings</span>
-          <span className="tooltip-text">Settings</span>
+          <span className="tooltip-text">Chat</span>
         </div>
         <div className="tool-item">
           <span className="material-icons tool-icon">help</span>
