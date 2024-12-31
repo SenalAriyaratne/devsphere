@@ -39,24 +39,43 @@ const Dashboard = () => {
 
   return (
     
-    <div className="grid md:grid-cols-3 grid-cols-1 gap-4 p-4 h-screen md:overflow-hidden">
-      <div className="space-y-4">
-        <WelcomeCard firstName={firstName} />
-        <CalendarCard />
-        <TimeCard />
-      </div>
-      <div className="space-y-4">
-        <AddTaskAndProjectCard />
-        <TasksOverviewCard tasks={tasks} />
-        <ActiveProjectsCard projects={projects} />
+    // <div className="grid md:grid-cols-3 bg-slate-200 grid-cols-1 gap-4 p-4 h-screen sm:h-auto md:overflow-hidden">
+    //   <div className="space-y-4">
+    //     <WelcomeCard firstName={firstName} />
+    //     <CalendarCard />
+    //     <TimeCard />
+    //   </div>
+    //   <div className="space-y-4">
+    //     <AddTaskAndProjectCard />
+    //     <TasksOverviewCard tasks={tasks} />
+    //     <ActiveProjectsCard projects={projects} />
         
-      </div>
-      <div className="space-y-4">
-        {/* Additional content can go here */}
-        <CollaboratorsCard collaborators={collaborators} />
-        <HighPriorityTasksCard tasks={highPriorityTasks} />
-      </div>
+    //   </div>
+    //   <div className="space-y-4">
+    //     {/* Additional content can go here */}
+    //     <CollaboratorsCard collaborators={collaborators} />
+    //     <HighPriorityTasksCard tasks={highPriorityTasks} />
+    //   </div>
+    // </div>
+    <div className="min-h-screen bg-slate-200 p-4">
+  <div className="grid md:grid-cols-3 grid-cols-1 gap-4">
+    <div className="space-y-4">
+      <WelcomeCard firstName={firstName} />
+      <CalendarCard />
+      <TimeCard />
     </div>
+    <div className="space-y-4">
+      <AddTaskAndProjectCard />
+      <TasksOverviewCard tasks={tasks} />
+      <ActiveProjectsCard projects={projects} />
+    </div>
+    <div className="space-y-4">
+      {/* Additional content can go here */}
+      <CollaboratorsCard collaborators={collaborators} />
+      <HighPriorityTasksCard tasks={highPriorityTasks} />
+    </div>
+  </div>
+</div>
   );
 };
 

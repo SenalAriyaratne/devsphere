@@ -16,21 +16,21 @@ const Toolbar = () => {
           <span className="material-icons tool-icon">dashboard</span>
           <span className="tooltip-text">Dashboard</span>
         </Link>
-        <div className="tool-item">
+        <Link to="/projects" className="tool-item">
           <span className="material-icons tool-icon">apps</span>
           <span className="tooltip-text">Projects</span>
-        </div>
+        </Link>
         <div className="tool-item">
           <span className="material-icons tool-icon">search</span>
           <span className="tooltip-text">Search</span>
         </div>
-        <div className="tool-item">
+        <Link to="/chat" className="tool-item">
           <span className="material-icons tool-icon">chat</span>
-          <span className="tooltip-text">Search</span>
-        </div>
+          <span className="tooltip-text">Chat</span>
+        </Link>
         <div className="tool-item">
           <span className="material-icons tool-icon">settings</span>
-          <span className="tooltip-text">Chat</span>
+          <span className="tooltip-text">Settings</span>
         </div>
         <div className="tool-item">
           <span className="material-icons tool-icon">help</span>

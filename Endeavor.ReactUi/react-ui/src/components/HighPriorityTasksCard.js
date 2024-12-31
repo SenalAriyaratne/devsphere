@@ -13,9 +13,9 @@ const HighPriorityTaskCard = ({ task }) => {
 const HighPriorityTasksCard = ({ tasks }) => {
   return (
     <div className="bg-white pb-2 rounded-lg shadow-lg w-full relative h-0.5-screen"> 
-      <div className="grid grid-cols-3 grid-rows-1 gap-1">
-        <div className="col-span-2 row-span-1 flex items-center justify-start bg-red-300 rounded-br-lg p-2">
-          <h2 className="text-2xl font-bold ml-1 text-red-700">High Priority Tasks</h2>
+      <div className="grid grid-cols-4 grid-rows-4 gap-2">
+        <div className="col-span-2 row-span-4 flex items-center justify-center bg-red-300 rounded-lg ml-2 mt-2">
+          <h2 className="md:text-2xl sm:text-xl font-bold  text-red-700">Priority Tasks</h2>
         </div>
         <div className="col-span-4 row-span-4 p-4 h-80 overflow-y-scroll">
           {tasks.map((task, index) => (

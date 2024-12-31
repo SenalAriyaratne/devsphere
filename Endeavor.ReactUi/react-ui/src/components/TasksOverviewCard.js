@@ -1,17 +1,16 @@
 import React from "react";
 
 const TasksOverviewCard = ({ tasks }) => {
-    return (
+  return (
     <div className="bg-white pb-2 rounded-lg shadow-lg w-full relative">
-      <div className="grid grid-cols-4 grid-rows-3 ">
-        <div className="col-span-2 row-span-1 flex items-center  bg-blue-300  rounded-br-lg">
-          <h2 className="text-2xl font-bold ml-1 text-blue-700">Tasks Overview</h2>
+      <div className="grid grid-cols-4 grid-rows-2 ">
+        <div className="col-span-2 row-span-1 flex items-center justify-center bg-blue-300  rounded-lg ml-2 mt-2">
+          <h2 className=" md:text-2xl sm:text-xl  font-bold ml-1 text-blue-700 ">Tasks Overview</h2>
         </div>
         <div className=" col-span-2 row-span-1">
           <div className="absolute top-0 right-0 mr-1 mt-1 bg-blue-500 text-white p-1 rounded-full shadow-md">
-          <span className="material-icons text-xl text-white">assignment</span>
+            <span className="material-icons text-xl text-white">assignment</span>
           </div>
-          
         </div>
         <div className="col-span-1 row-span-1 flex items-center justify-center">
           <h3 className="text-lg font-bold">To Do</h3>
@@ -50,7 +49,7 @@ const TasksOverviewCard = ({ tasks }) => {
         </div>
       </div>
     </div>
-    );
+  );
 }
 
 export default TasksOverviewCard;
