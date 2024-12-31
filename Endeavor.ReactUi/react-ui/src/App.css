@@ -74,11 +74,11 @@
 }
 
 .tool-item {
-  @apply flex items-center justify-start w-full h-12 mt-2 rounded hover:bg-slate-200 p-4 cursor-pointer;
+  @apply flex items-center justify-start w-full  h-12 mt-2 rounded hover:bg-slate-200 p-4 cursor-pointer;
 }
 
 .tool-icon {
-  @apply text-blue-300 p-2;
+  @apply text-blue-300 p-2 sm:p-1;
 }
 
 
