@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Endeavor.Web")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+103e906cc9bacb617f4435fa0f350901c3f9e54e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5ca090e593bb2408ca8bfa0afae5beb9787840a0")]
 [assembly: System.Reflection.AssemblyProductAttribute("Endeavor.Web")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Endeavor.Web")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
