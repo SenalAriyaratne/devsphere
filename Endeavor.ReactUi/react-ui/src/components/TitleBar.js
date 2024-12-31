@@ -1,8 +1,9 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import '../App.css';
 import profilePicture from '../assets/images/profile.jpg'; // Adjust the path to your image
 import logo from '../assets/images/logoDS.PNG';
-const TitleBar = ({ isSignedIn, onSignIn }) => {
+const TitleBar = ({ isSignedIn, onSignIn, onCreateAccount }) => {
     // const [isSignedIn, setIsSignedIn] = useState(false); // State to track if the user is signed in
 
     return (
@@ -18,7 +19,8 @@ const TitleBar = ({ isSignedIn, onSignIn }) => {
                 <img src={profilePicture} alt="Profile" className="profile-picture" />
             ) : (
                 <div className="auth-buttons">
-                    <button className="create-account-button">Create Account</button>
+                    <button className="create-account-button" onClick={onCreateAccount}>Create Account</button>
+                    
                     <button className="sign-in-button" onClick={onSignIn}>Sign in</button>
                 </div>
             )}
